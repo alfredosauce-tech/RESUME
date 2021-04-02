@@ -1,0 +1,126 @@
+header{
+  background-color: rgb(178, 178, 248);
+  color: black;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.white-box{
+  background-color: blanchedalmond;
+  padding: 40px;
+  height: 100px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main{
+  display: grid;
+  height: 650px;
+  /* grid-template-areas:
+      pro headshot reach
+      ed skill expert
+      ; */
+
+
+  grid-template-columns: 35% 30% 35%;
+grid-template-rows: 50% 50%;
+  
+}
+main h2{
+  text-align: center;
+}
+.headshot{
+  /* background-image: url("https://unsplash.com/photos/Hh7SSmPzkvM");   */
+  grid-area: headshot;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width:75%;
+  border-radius: 50%;
+
+}
+.profile{
+  grid-area: pro;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.education{
+  grid-area: ed;
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.Education h2{
+  background-color: lightblue;
+  height: 45px;
+  border: 1px lightblue solid;
+}
+.skills{
+  grid-area: skill;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  
+  
+  
+}
+.skills h3{
+  background-color: lightblue;
+  padding: 20px;
+
+}
+main section{
+  padding: 30px;
+}
+
+.reach-me{
+  grid-area: reach;
+grid-row: 1/2;
+grid-column: 3/4;
+}
+.expertise{
+  grid-area: expert;
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.expertise h2{
+  background-color: lightblue;
+  height: 45px;
+  border: 1px lightblue solid
+}
+
+footer h2{
+  text-align: center;
+  background-color: lightblue;
+  height: 30px;
+  width:auto;  
+  margin:auto
+  
+
+}
+  
+
+  
+
+footer{
+
+}
+.bottom-section{
+  display: flex;
+  justify-content: space-around;
+}
+hr{
+line-height: 100px;
+}
